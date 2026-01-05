@@ -66,7 +66,7 @@ Examples:
         # Process the file
         print(f"📝 Processing: {args.file}")
         print(f"🎨 Style: {args.style}")
-        print(f"⏳ Calling Claude API...")
+        print(f"⏳ Calling Gemini API...")
         print()
         
         commented_code = generator.process_file(
