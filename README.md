@@ -4,10 +4,11 @@ An AI-powered Python tool that automatically generates educational comments for 
 
 ## 🌟 Features
 
+- **Web Interface**: Beautiful Streamlit UI with file upload and code paste options
 - **AI-Powered Comments**: Uses Google Gemini to generate intelligent, context-aware comments
 - **Multiple Comment Styles**: Choose between beginner-friendly, technical, or interview-focused comments
 - **Complexity Analysis**: Automatically includes time and space complexity explanations
-- **Easy to Use**: Simple command-line interface
+- **Easy to Use**: Both web interface and command-line options
 - **Preserves Code Structure**: Keeps your original code intact while adding helpful documentation
 
 ## 📋 Prerequisites
@@ -37,7 +38,21 @@ An AI-powered Python tool that automatically generates educational comments for 
 
 ## 💻 Usage
 
-### Basic Usage
+### Web Interface (Recommended)
+
+Launch the interactive web app:
+
+```bash
+streamlit run app.py
+```
+
+Features:
+- 📁 Upload Python files or ✍️ paste code directly
+- 🎨 Choose from 3 comment styles
+- 💬 View generated comments instantly
+- ⬇️ Download commented code
+
+### Command Line Interface
 
 Generate comments for a Python file:
 
@@ -46,17 +61,13 @@ cd src
 python main.py --file path/to/your/solution.py
 ```
 
-### Save to File
-
-Save the commented code to a new file:
+Save to a new file:
 
 ```bash
 python main.py --file solution.py --output commented_solution.py
 ```
 
-### Choose Comment Style
-
-Select from three comment styles:
+Choose comment style:
 
 ```bash
 # Beginner-friendly (default)
@@ -165,13 +176,15 @@ Project Link: [https://github.com/Rushi264/leetcode-comment-generator](https://g
 
 ## 🚀 Future Enhancements
 
-- [ ] Web interface using Streamlit
+- [x] Web interface using Streamlit ✅
 - [ ] Support for Java, C++, JavaScript
 - [ ] Batch processing for multiple files
 - [ ] Integration with LeetCode API
 - [ ] VS Code extension
 - [ ] Customizable comment templates
+- [ ] User authentication and history tracking
+- [ ] API rate limiting and caching
 
 ---
 
-Made with ❤️ by Rushi264 
+Made with ❤️ by Rushi264
