@@ -11,6 +11,12 @@ An AI-powered Python tool that automatically generates educational comments for 
 - **Easy to Use**: Both web interface and command-line options
 - **Preserves Code Structure**: Keeps your original code intact while adding helpful documentation
 
+## 📸 Demo
+
+![LeetCode Comment Generator Demo](images/demo.png)
+
+*Web interface showing file upload, comment style selection, and instant preview*
+
 ## 📋 Prerequisites
 
 - Python 3.8 or higher
